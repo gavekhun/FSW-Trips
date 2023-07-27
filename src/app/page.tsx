@@ -1,5 +1,6 @@
 "use client"
 
+import RecommendedTrips from "./components/RecommendedTrips"
 import TagsSearch from "./components/TagsSearch"
 import TripSearch from "./components/TripSearch"
 
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <TripSearch/>
       <TagsSearch/>
+      <RecommendedTrips/>
 
     </div>
   )
