@@ -15,7 +15,7 @@ const Header = () => {
       signOut()
     }
 
-  return <div className="container mx-auto p-5 flex justify-between items-center">
+  return <div className="container mx-auto p-5 py-0 h-[93px] flex justify-between items-center shadow-sm">
     <div className="relative h-[32px] w-[183px]">
     <Image  src="/Logo.png" alt='Logo' fill/>
     </div>
@@ -34,7 +34,7 @@ const Header = () => {
                 </button>
 
               </div>
-            )}
+            )}            
         </div>
         
           
